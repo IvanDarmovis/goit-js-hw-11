@@ -1,0 +1,73 @@
+body {
+  padding: 10px;
+}
+.search {
+  &-form {
+    position: relative;
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: #0000ddaa;
+
+    & input {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 250px;
+      height: 30px;
+
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0px 0px 5px 2px rgba(34, 60, 80, 0.2) inset;
+    }
+
+    & button {
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      top: 50%;
+      right: 50%;
+      transform: translate(calc(-50% + 140px), -50%);
+      height: 30px;
+      width: 30px;
+
+      border: none;
+      box-shadow: none;
+      background-color: transparent;
+
+      &:hover {
+        fill: #0000ddaa;
+      }
+      & svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photo-card {
+  text-align: center;
+  width: 20%;
+}
+
+.img-link {
+  display: block;
+  margin-top: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
