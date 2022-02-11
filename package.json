@@ -28,6 +28,9 @@
   "dependencies": {
     "axios": "^0.25.0",
     "handlebars": "^4.7.7",
+    "handlebars-helper-svg": "^2.0.2",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
     "notiflix": "^3.2.4",
     "simplelightbox": "^2.10.2"
   }

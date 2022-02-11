@@ -1,19 +1,25 @@
 <div class="photo-card">
     <a href="{{largeImageURL}}" class="img-link">
-    <img src="{{previewURL}}" alt="{{tags}}" loading="lazy" />
+    <div class="thumb">
+        <img src="{{previewURL}}" alt="{{tags}}" loading="lazy" />
         <div class="info">
             <p class="info-item">
-            <b>Likes: {{likes}}</b>
+                <img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/000000/external-like-feedback-kmg-design-glyph-kmg-design.png"/>
+            <b>{{likes}}</b>
             </p>
             <p class="info-item">
-            <b>Views: {{views}}</b>
+                <img src="https://img.icons8.com/external-bearicons-detailed-outline-bearicons/64/000000/external-view-graphic-design-bearicons-detailed-outline-bearicons.png"/>
+            <b>{{views}}</b>
             </p>
             <p class="info-item">
-            <b>Comments: {{comments}}</b>
+                <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-comment-chat-flatart-icons-solid-flatarticons.png"/>
+            <b>{{comments}}</b>
             </p>
             <p class="info-item">
-            <b>Downloads: {{downloads}}</b>
+                <img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/000000/external-download-ui-essential-kmg-design-glyph-kmg-design.png"/>
+            <b>{{downloads}}</b>
             </p>
         </div>
+    </div>
     </a>
 </div>
